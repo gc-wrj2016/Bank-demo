@@ -29,7 +29,7 @@ signed main()
 {
 	double money=0,cnt;
 	string name;
-	ifstream testFile("test.txt");
+	ifstream testFile("zl.txt");
 	if (testFile >> cnt) {
 		for(int i = 1; i <= cnt; i++) {
 			testFile >> name >> money;
@@ -191,7 +191,7 @@ signed main()
 			continue;
 		}
 	}
-	freopen("test.txt","w",stdout);
+	freopen("zl.txt","w",stdout);
 	cout<<m.size()<<'\n';
 	for(auto i=m.begin();i!=m.end();i++)
 	{
